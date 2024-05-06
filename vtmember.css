@@ -1,0 +1,1213 @@
+a#sb_conversations {
+    position: relative;
+}
+#wavv-so .unreads{
+display:none;
+}
+#app:has(.hl_login) {
+    background: url(https://storage.googleapis.com/msgsndr/pHSfW2uwhd8HpQmFRZ5V/media/656a2b7e3dc49432dd901aa6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hl_login--body {
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+}
+
+.login-card-heading::before {
+    content: " ";
+    background: url(https://msgsndr-private.storage.googleapis.com/companyPhotos/bef34b39-5736-4c03-9527-141b068f8c5e.png);
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  transform: translateX(-50%);
+}
+.login-card-heading {
+   margin-top: 60px;
+}
+.hl_login--header {
+   display: none;
+}
+.card:has(.login-card-heading) {
+  background: #ffffffd6 !important;
+  margin-right: -15px !important;
+  border-radius: 0px;
+  height: 100vh;
+}
+.card:has(.login-card-heading) .card-body {
+ margin-top: 40%;
+  position:relative;
+}
+
+button.hl-btn.justify-center.w-full.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.text-white.bg-curious-blue-500.hover\:bg-curious-blue-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-600 {
+    background: #7d0205;
+}
+a#forgot_passowrd_btn {
+    color: #7d0205 !important;
+}
+
+a.text-curious-blue-500.hover\:text-curious-blue-800.font-semibold {
+    color: #7d0205 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+  /* --primary-color:  #7d0205; */
+  --primary-color: linear-gradient(239deg, #072422 0%, #7d0205 100%) !important;
+  --secondry-color: #072422;
+  --light-color: #072422;
+  --light-color: linear-gradient(239deg, #072422 0%, #7d0205 100%) !important;
+  --green: #37ca37;
+  --black: #000;
+  --white: #ffffff !important;
+  --blue: #00c6fe;
+  --red: red;
+}
+
+
+/* -------------------------sidebar,and navbar--------------- */
+div#sidebar-v2 {
+  background: var(--primary-color) !important;
+}
+
+/* ------------sidebar icon and link------------ */
+
+#app #sidebar-v2 [class*="hl_nav"] a:is(.active, :hover) {
+  background: var(--white) !important;
+  border-radius: 20px 0px 0px 20px !important;
+}
+
+#app #sidebar-v2 [class*="hl_nav"] a:is(.active, :hover) span {
+  color: var(--black) !important;
+}
+#app #sidebar-v2 [class*="hl_nav"] a:not(.active, :hover) span:not(.unreads) {
+  color: var(--white) !important;
+}
+#app #sidebar-v2 [class*="hl_nav"] a:not(.active, :hover) img {
+  filter: invert(0) !important;
+}
+#app #sidebar-v2 [class*="hl_nav"] a:is(.active, :hover) img {
+  filter: invert(1) !important;
+}
+#app #sidebar-v2 [class*="hl_nav"] a:not(.active, :hover) span i {
+  color: white !important;
+}
+#app #sidebar-v2 [class*="hl_nav"] a:is(.active, :hover) span i {
+  color: black !important;
+}
+.hl_nav-header nav a {
+  width: 95%;
+  margin-left: auto;
+}
+#app #sidebar-v2 [class*="hl_nav"] a.divider {
+  background: none !important;
+  border-radius: none !important;
+  box-shadow: none !important;
+}
+#app #sidebar-v2 a#sb_launchpad img {
+  filter: invert(1) !important;
+}
+#app #sidebar-v2 a#sb_launchpad:hover img {
+  filter: invert(0) !important;
+}
+
+/* ----------switcher-start-and search--- */
+div#location-switcher-sidbar-v2 {
+  background-color: var(--primary-color) !important;
+  border: 1px solid white !important;
+}
+
+#location-switcher-sidbar-v2 .items-center .hl_location_icon {
+  filter: invert(0) !important;
+}
+#sidebar-v2 div#location-switcher-sidbar-v2 .hl_location-text span {
+  color: var(--white) !important;
+}
+#sidebar-v2 div#location-switcher-sidbar-v2 .switcher-caret-holder i {
+  color: var(--white) !important;
+}
+div#globalSearchOpener {
+  background-color: var(--white) !important;
+}
+div#globalSearchOpener svg path {
+  fill: var(--black) !important;
+}
+div#globalSearchOpener span.search-placeholder {
+  color: var(--black) !important;
+}
+#app #sidebar-v2 span.text-xs.px-1.mx-1.rounded-sm.search-shortcut {
+  background-color: var(--white) !important;
+}
+#app #sidebar-v2 div#quickActions {
+  background-color: var(--white) !important;
+  margin-left: 1px;
+}
+div#sidebar-v2 .flex div#quickActions img {
+    filter:contrast(0) brightness(0%) !important;
+    
+}
+
+/* -------------switcher--end------------- */
+
+/* setting--------------- */
+
+div#backButtonv2 {
+  background-color: var(--secondry-color) !important;
+  color: var(--white) !important;
+}
+nav.flex-1.w-full a p span {
+  color: var(--black) !important;
+  background-color: var(--white) !important;
+}
+div#quickActions {
+  background-color: var(--dark) !important;
+}
+#app .sidebar-v2-location #sidebar-v2 .hl_collapse-button {
+  background: var(--white) !important;
+  color: var(--secondry-color) !important;
+}
+.flex.flex-col.overflow-y-auto.overflow-x-hidden.w-full.hl_nav-header::-webkit-scrollbar {
+  display: none;
+}
+/* -------------------------------------end------------------------------ */
+/* -------right icon three colors------ */
+.hl_header--controls > a {
+  background: var(--primary-color) !important;
+}
+.hl_header--controls > a i {
+  filter: invert(0) !important;
+}
+.hl_header--controls
+  span.btn.btn-circle.d-flex.justify-content-center.align-items-center.btn-green-dark {
+  background: var(--primary-color) !important;
+}
+#mobileresphambeg img {
+  display: none !important;
+}
+/* -------end right icon three colors------ */
+
+/* -------------------card-header-drop-down----- */
+#location-dashboard .hl-card {
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+#location-dashboard .hl-card .hl-card-header {
+  background: var(--light-color) !important;
+  border-radius: 20px 20px 0px 0px;
+}
+#location-dashboard .hl-card .hl-card-header .hl-text-md-medium {
+  color: white !important;
+}
+#location-dashboard .hl-card .hl-card-header .cursor-pointer {
+    color: white !important;
+}
+
+/* -------card-dropdown---end------------- */
+
+/* --------------------charts--------------------- */
+.crm-opportunities-status
+  .echarts
+  path:is(:nth-child(1), :nth-child(4), :nth-child(6)) {
+  fill: var(--secondry-color) !important;
+}
+
+.crm-opportunities-value .echarts path:nth-child(21) {
+  fill: var(--secondry-color) !important;
+}
+
+.crm-opportunities-conversion-rate .echarts path:nth-child(4) {
+  fill: var(--secondry-color) !important;
+}
+.crm-opportunities-stages-distribution .echarts path:nth-child(1) {
+  fill: var(--secondry-color) !important;
+}
+
+/* -------dashboard-word-text-color-------- */
+.hl-header-content .hl-title-container .title.hl-display-sm-medium {
+  color: #7d0205 !important;
+}
+/* ----------------dash-word--end---------- */
+
+.flex.flex-col.text-left.text-lg.menu-title.px-2.py-2.md\:px-3.md\:py-2.mt-2.font-medium {
+    color: white !important;
+}
+/*----------additional----------*/
+.n-base-select-option--pending:hover {
+  color: white !important;
+}
+.n-base-select-option--pending:hover:before {
+  background: #7d0205 !important;
+}
+
+.n-base-select-option--selected .n-base-select-option__content {
+  background:#7d0205 !important;
+  color: white !important;
+}
+.n-base-select-option--selected {
+  --n-option-color-active-pending: #7d0205 !important;
+  --n-option-color-active: #7d0205!important;
+  --n-option-color-pending: #7d0205!important;
+}
+/*------------aditional--end---------*/
+
+/* -----all primery--button---- */
+#app button .n-button,#app .n-button--primary-type,button.n-button--tiny-type{
+     --n-color: #4a1011 !important;
+  --n-color-hover: #441313 !important;
+  --n-color-pressed: #4a1112 !important;
+  --n-color-focus: #550e0f !important;
+  --n-color-disabled: #520a0c !important;
+  --n-ripple-color: #490e0f !important;
+  --n-border: 1px solid #560e0f !important;
+  --n-border-hover: 1px solid #560d0e !important;
+  --n-border-pressed: 1px solid #570d0e !important;
+  --n-border-focus: 1px solid #570d0e !important;
+  --n-border-disabled: 1px solid #5b0c0e !important;
+  background-color: #560e0f !important;
+}
+/* ---------end-all- primery--button----- */
+
+/* ---------------------date-dashboard---------- */
+.n-input.n-input--resizable.n-input--pair.n-input--stateful {
+  --n-border-hover:white !important;
+  border:1px solid #750507 !important;
+  --n-border-pressed:white !important;
+      --n-border-focus:white !important;
+  --n-box-shadow-focus:none !important;
+}
+.n-date-panel .n-date-panel-dates .n-date-panel-date.n-date-panel-date--selected::after{
+background:#750507 !important;
+
+}
+.n-date-panel-month {
+  background:#750507 !important;
+  color:white !important;
+}
+.n-date-panel-month__text {
+  color:white !important;
+}
+/* ---------------------end---date-dashboard-------- */
+/* ----------top-menue---start------------ */
+.hl_header .topmenu-nav .topmenu-navtitle {
+  color: #560d0e !important;
+}
+.hl_header .topmenu-nav a {
+  color: #560e0f !important;
+padding-top: 6px !important;
+}
+.hl_header .topmenu-nav a:is(.active, :hover) {
+  background: #550e0f !important;
+  color: white !important;
+}
+.hl_header .topmenu-nav a span img {
+  filter: invert(1) !important;
+}
+.hl_header .topmenu-nav a:hover span img {
+  filter: invert(0) !important;
+}
+/* ------------end-----top-----menu----- */
+/* -------contact ------ */
+.pagination a.active[data-v-05a07f3d] {
+  background: #68080a !important;
+}
+
+button#hl_smartlists--filter-btn i {
+  color: #570d0e !important;
+}
+.hl_controls--right > div {
+    border: 1px solid #570d0e !important;
+  border-radius:none !important;
+  box-shadow:none !important;
+}
+section.w-full .hl_controls--left span .btn-sm {
+  background:#570d0e  !important;
+}
+
+section.w-full .hl_controls--left span .btn-sm svg{
+fill:#fff !important;
+}
+
+section.w-full .hl_controls--left .btn-sm i,[id*="wavv-"] img {
+filter:brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%) !important;
+  
+}
+/*-------------contact-table-head--------  */
+section#hl_smartlists-main table thead tr {
+    background:#5a0c0e !important;
+}
+section#hl_smartlists-main table thead tr th span,.mr-1.wide-header{
+    color:white !important;
+}
+/*-------------contact-table-head-end-------  */
+ [type=checkbox]:checked, [type=radio]:checked {
+    background-color:#7d0205 !important;}
+.hl_controls .hl_controls--right .bootstrap-select>.btn.dropdown-toggle:after {
+    color: #7d0205 !important;
+}
+/* ------end---contact---------  */
+/* ---------site----funnle---search------ */
+
+div#hl-table-funnel-list-filter-text-search {
+   border:1px solid #560e0f;
+  border-radius:none !important;
+  box-shadow:none !important;
+ --n-color-hover:none !important;}
+ .n-pagination .n-pagination-item:not(.n-pagination-item--disabled).n-pagination-item--active  {
+   border:1px solid #072422;
+background:#072422 !important;
+color:white !important;
+}
+/*end---------funnel---shearch  */
+/* -------loader----start---- */
+.hl-loader-container div {
+    display: none !important;
+}
+
+.hl-loader-container::after {
+    content: '';
+    background: url(https://storage.googleapis.com/msgsndr/MpzTIc9oNstT7C0r3OzQ/media/65f887da4d7869e69ebe7863.gif);
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-size: contain;
+}
+
+.app-loader {
+    
+background: #f0ffffe3 !important;
+}
+.lds-ring {
+    display: none !important;
+}
+
+.hl-loader-info {
+    display: none !important;
+}
+/* -------loader----start--end-- */
+
+/* --------------conversation---manual action------ */
+.dropdown-menu.show ul li a:hover {
+    background: #4d1011 !important;
+}
+.dropdown-menu.show ul li:hover span{
+    color:white !important;
+}
+.bootstrap-select>.dropdown-menu .inner .dropdown-menu li.active a.active{
+    background:#590c0e !important;
+    color:white !important;
+}
+/* --------------conversation---manual action---end--- */
+#app #sidebar-v2  a {
+    opacity: 1 !important;
+}
+:root {
+--primary-300: #7d0205 !important;
+    --primary-400: #7d0205 !important;
+    --primary-500: #7d0205 !important;
+    --primary-600: #7d0205 !important;
+    --primary-700: #7d0205 !important;
+    --primary-800: #7d0205 !important;
+    --primary-900:#7d0205 !important;
+    --primary-400: #7d0205 !important;
+    --primary-500: #7d0205 !important;
+    --primary-600: #7d0205 !important;
+    --primary-700: #7d0205 !important;
+    --primary-800: #7d0205 !important;
+    --primary-900: #7d0205 !important;
+--gray-300: #7d0205 !important;
+    --primary-50: #f9e1e1 !important;
+    --primary-100: #dfa8a9 !important;
+--primary-600: #7d0205 !important;
+}
+a#hl_header--help-icon {
+    display: none !important;
+}
+.agency a#hl_header--help-icon {
+    display: block !important;
+}
+
+/* --------------logo------------- */
+img.object-contain.agency-logo {
+    height:100px !important;
+}
+.sidebar-v2-location #sidebar-v2 .hl_nav-header, .sidebar-v2-location #sidebar-v2 .hl_nav-settings {
+    overflow-y: overlay;
+    max-height: calc(100vh - 18.3rem) !important;
+}
+/* ---------end------log0--------- */
+/* --------dashboard--edit---button---- */
+.n-button--default-type{
+    --n-border: 1px solid #7d0205 !important;
+    --n-border-focus: 1px #7d0205 !important;
+    --n-border-pressed: 1px solid #7d0205 !important;
+    --n-border-hover: 1px solid #7d0205 !important;
+}
+/* --------dashboard--edit---button--end-- */
+/* -------calanders-day,W,Month-------- */
+.w-52.toolbar_tab .n-tabs.n-tabs--segment-type.n-tabs--medium-size {
+    border: 1px solid #7d0205 !important;
+    border-radius:4px !important;
+}
+
+.w-52.toolbar_tab .n-tabs-tab.n-tabs-tab--active {
+    background:#7d0205 !important;
+    color:white !important;
+}
+.hl-wrapper-container .rounded-md {
+    border:1px solid #7d0205 !important;
+}
+.hl-wrapper-container .rounded-md button{
+    color:#7d0205 !important;
+}
+/* -------------calnders--day-months-end----- */
+/* -----header---status---change------ */
+#location-dashboard .hl-card .hl-card-header .p-2.rounded.transition-all.cursor-pointer:hover{
+    background:#072422 !important;
+}
+/* --------status---change-end----- */
+/* -----all--primery---button--- */
+body #app button[class*='n-button--primary-type'] {
+    background:var(--primary-600) !important;
+    border:#7d0205 !important;
+    --n-color-focus:#7d0205 !important;
+    --n-color-hover:#7d0205 !important;
+    --n-border: 1px solid #7d0205 !important;
+    --n-border-hover: 1px solid #7d0205!important;
+    --n-border-focus: 1px solid #7d0205 !important;
+        --n-border-pressed: 1px solid #7d0205 !important;
+    --n-color-disabled: #7d0205 !important;
+    --n-color: #7d0205 !important;
+    --n-border-disabled: 1px solid #7d0205 !important;
+        --n-color-pressed: #7d0205 !important;
+    --n-ripple-color: #7d0205 !important;
+}
+/* -----all--primery---button-end-- */
+#app .hl-header .hl-header-content button#ProspectAccount-btn-primary {
+    background:#7d0205 !important;
+    border:#7d0205 !important;
+    --n-color-focus:#7d0205 !important;
+    --n-color-hover:#7d0205 !important;
+    --n-border: 1px solid #7d0205 !important;
+    --n-border-hover: 1px solid #7d0205!important;
+    --n-border-focus: 1px solid #7d0205 !important;
+        --n-border-pressed: 1px solid #7d0205 !important;
+    --n-color-disabled: #7d0205 !important;
+    --n-color: #7d0205 !important;
+    --n-border-disabled: 1px solid #7d0205 !important;
+        --n-color-pressed: #7d0205 !important;
+    --n-ripple-color: #7d0205 !important;
+}
+#app button.hl-btn{
+    background:#7d0205 !important;
+color: white !important;
+}
+/* -----------setting--phone-number------ */
+.hl_affiliate--header ul.hl_affiliate--nav li.--active a ,li.active a{
+    background:#7d0205 !important;
+    color:white !important;
+    padding:7px !important;
+}
+
+.hl_affiliate--header ul.hl_affiliate--nav li:hover a{
+    background:#7d0205 !important;
+    color:white ;
+    padding:7px !important
+}
+.hl_allphonenumber--container .table-wrap.bg-white .table.bg-white .table-row.--header.bg-white {
+    background:#7d0205 !important;
+}
+.hl_allphonenumber--container .table-wrap.bg-white .table.bg-white .table-row.--header.bg-white .table-cell{
+    color:white !important;
+}
+/* ---------end---phone---number------ */
+/* --------------custom-field---add-folder------ */
+.flex.justify-end button.hl-btn.add-folder-button {
+color:white !important;
+    background:#7d0205 !important;
+}
+/* ------------end--custom-field---add-folder------ */
+/* ----------saas-config---button-size-- */
+.hl-header-content > .flex > .flex button:last-child{
+    /*width:100% !important;*/
+}
+ .n-tabs-nav-scroll-wrapper .v-x-scroll .n-tabs-nav-scroll-content .n-tabs-wrapper .n-tabs-tab-wrapper .n-tabs-tab:hover {
+  background:#7d0205 !important;
+    color:white !important;
+padding:7px !important
+}
+ .n-tabs-nav-scroll-wrapper .v-x-scroll .n-tabs-nav-scroll-content .n-tabs-wrapper .n-tabs-tab-wrapper .n-tabs-tab--active{
+    background:#7d0205 !important;
+    color:white !important;
+padding:7px !important
+}
+/* --------end--saas-config---button-size-- */
+/* -----------opertunity------ */
+div#data-search-opportunities,.n-base-selection.n-base-selection--selected {
+    border:1px solid #7d0205 !important;
+}
+.n-base-loading.n-base-suffix .n-base-clear i.n-base-icon.n-base-suffix__arrow {
+    color:#7d0205 !important;
+}
+.card.hl_customers--table .table-wrap table thead tr {
+    background:#7d0205 !important;
+}
+.card.hl_customers--table .table-wrap table thead tr th{
+color:#fff !important;}
+/* -------------oppertunity--end----------- */
+/* --------markiting---table------- */
+.container-fluid table thead tr {
+ background:#7d0205 !important;
+}
+.container-fluid table thead tr th{
+ color:#ffffff !important;
+}
+/* --------markiting---table--end----- */
+/* -------------agency--dashboard-------------- */
+.sidebar-v2-agency section.hl_wrapper--inner.agency-dash .hl_controls--left h1 {
+  color: #7d0205 !important;
+  font-size: 25px !important;
+  font-weight: 500 !important;
+}
+
+.sidebar-v2-agency
+  section.hl_wrapper--inner.agency-dash
+  .hl_controls--left
+  .processing-stats {
+  border: 1px solid #7d0205 !important;
+  color: #7d0205 !important;
+}
+.sidebar-v2-agency
+  section.hl_wrapper--inner.agency-dash
+  .hl_controls--left
+  .processing-stats
+  i {
+  color: #7d0205 !important;
+}
+.sidebar-v2-agency
+  section.hl_wrapper--inner.agency-dash
+  .container-fluid
+  .row
+  .col-md-3.col-sm-6
+  .card.--short {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12) !important;
+  border-radius: 20px 20px 0px 0px !important;
+}
+.sidebar-v2-agency
+  section.hl_wrapper--inner.agency-dash
+  .container-fluid
+  .row
+  .col-md-3.col-sm-6
+  .card.--short
+  .card-body
+  .card-title {
+  background: var(--primary-color) !important;
+  color: #fff !important;
+  padding: 20px 6px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.sidebar-v2-agency
+  section.hl_wrapper--inner.agency-dash
+  .container-fluid
+  .row
+  .col-md-3.col-sm-6
+  .card.--short
+  .card-body{
+      padding:0 !important;
+  }
+.sidebar-v2-agency
+  section.hl_wrapper--inner.agency-dash
+  .container-fluid
+  .row
+  .col-md-6
+  .card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 20px 20px 0px 0px;
+}
+.sidebar-v2-agency
+  section.hl_wrapper--inner.agency-dash
+  .container-fluid
+  .row
+  .col-md-6
+  .card
+  .card-body
+  .card-title {
+  background: var(--primary-color) !important;
+  color: #fff !important;
+  border-radius: 20px 20px 0px 0px;
+  padding: 25px !important;
+}
+.sidebar-v2-agency
+  section.hl_wrapper--inner.agency-dash
+  .container-fluid
+  .row
+  .col-md-6
+  .card
+  .card-body .card-graph {
+    display: flex;
+    justify-content: center;
+}
+.sidebar-v2-agency
+  section.hl_wrapper--inner.agency-dash
+  .container-fluid
+  .row
+  .col-md-6
+  .card
+  .card-body{
+      padding:0 !important;
+      justify-content:center !important;
+      height:36vh
+      
+  }
+.card-value{
+    margin: 24px 6px;
+}
+.sidebar-v2-agency
+  section.hl_wrapper--inner.agency-dash
+  .container-fluid
+  .saas-banner {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2) !important;
+  background: var(--primary-color) !important;
+}
+/* -----------end--agency--dashboard-------------- */
+/* -----------dash--saas-configure------------ */
+.n-config-provider .hl-header-content .hl-title-container .hl-text-lg-medium {
+    color:#7d0205 !important;
+}
+.n-config-provider .hl-header-content .hl-title-container .description.max-w-3xl.hl-text-sm-normal{
+    color:#7d0205 !important;
+}
+.n-config-provider .mb-4.hl-card {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.n-config-provider .mb-4.hl-card .hl-card-content .mt-2 .flex.flex-wrap  .border-gray-300.border.rounded-full.h-9.w-9.p-2 {
+    border:1px solid #7d0205 !important;
+}
+.n-config-provider .mb-4.hl-card .hl-card-content .mt-2 .flex.flex-wrap .border-gray-300.border.rounded-full.h-9.w-9.p-2 svg  path{
+    stroke:#7d0205 !important;}
+}
+.n-config-provider .mb-4.hl-card .hl-card-content .mt-2 .flex.flex-wrap  .border-gray-300.border.rounded-full.h-9.w-9.p-2 svg{
+    color:#7d0205 !important;
+}
+.n-config-provider .mb-4.hl-card .hl-card-content .flex span.mr-1.font-semibold.text-3xl{
+    color:#7d0205 !important;
+}
+.n-config-provider .mb-4.hl-card .hl-card-content .flex .n-tag.n-tag--round.hl-default.ml-1 {
+    border:1px solid #7d0205 !important;
+}
+.n-config-provider .mb-4.hl-card .hl-card-content .flex .n-tag__content{
+color:#7d0205 !important;
+}
+.n-config-provider .mb-4.hl-card .hl-card-content .flex.flex-row.mt-4 .text-gray-900.font-semibold {
+    color:#7d0205 !important;
+}
+.n-config-provider .mx-auto.mb-2.text-gray-900.hl-text-lg-medium{
+    color:#7d0205 !important;
+}
+.n-config-provider .mb-4.hl-card .hl-card-content .flex.flex-row.justify-between .mt-2 .font-semibold.text-blue-700.hl-text-sm-medium{
+    color:#7d0205 !important;
+}.n-config-provider .mb-4.hl-card .hl-card-content .flex .text-gray-500.mr-2.text-sm.font-medium.hl-text-xs-regular,.font-semibold.hl-text-md-medium {
+    color:#072422 !important;
+}
+/* ----------------end---------saas---config---------- */
+/* -------------dash--snapshot-table---------- */
+.hl-wrapper-container .n-config-provider .table-container .n-data-table-thead .n-data-table-tr .n-data-table-th{
+    background-color:#7d0205 !important;
+    color:white !important;
+}
+/* ------------end----------snapshot------- */
+/* ------------conversation--------------- */
+section#conversations .hl_conversations--wrap .relative.hl_conversations--message .hl_conversations--message-body  .dropdown button#activityDropdownMenuButton {
+    border-radius:unset !important;
+    border: 1px solid #7d0205 !important;
+}
+
+section#conversations .hl_conversations--wrap .relative.hl_conversations--message .hl_conversations--message-body .message-bubble {
+    background:#7d0205 !important;
+    color:white !important;
+}
+section#conversations .hl_conversations--wrap .relative.hl_conversations--message .hl_conversations--message-body .messages-single.\--own-message .message-bubble:before {
+    border-color: #7d0205 transparent transparent transparent !important;
+}
+section#conversations .hl_conversations--wrap .relative.hl_conversations--message .hl_conversations--message-body .messages-single .message-bubble:before {
+    border-color: transparent #7d0205 transparent transparent;
+}
+
+section#conversations .hl_conversations--wrap .hl_conversations--messages-list-v2 .flex.items-center.h-5 .dropright.--no-caret a.flex.cursor-pointer.sort-option.inline-flex.items-center {
+    background:#7d0205!important;
+    }
+section#conversations .hl_conversations--wrap ul#conversation-list .conversation-selected-v2 {
+    border:1px solid #7d0205 !important;
+}
+/* ----------end--conversation--------------- */
+/* ----------------reporting------------ */
+.ad-reporting-container .card.hl_dashboard--pipeline-value .flex-row div#title-row-left h4 {
+    color:#7d0205 !important;
+}
+.ad-reporting-container .card.hl_dashboard--pipeline-value .flex-row button.btn.btn-outline-primary.btn-sm{
+    border:1px solid #7d0205!important;
+    color:#7d0205 !important;
+}
+
+.ad-reporting-container .card.hl_dashboard--pipeline-value .flex-row div#ads-date-picker-wrapper {
+    border:1px solid #7d0205 !important;
+}
+/* ----------------end------------reporting---------- */
+/* --------------affiliates--------- */
+section#settings .hl_settings--body .container-fluid .row .card .card-header {
+    background:var( --primary-color) !important;
+}
+section#settings .hl_settings--body .container-fluid .row .card .card-header h3{
+    color:white !important;
+}
+/* -----------end-affiliates----------- */
+/* ------------launch-pad-button----------- */
+.sidebar-v2-location section#launchpad div#launchpadHome .launchpad-item-container button {
+background:#7d0205 !important;
+    color:white !important;
+}
+.sidebar-v2-location section#launchpad div#launchpadHome .launchpad-center-containter .launchpad-title.text-center p{
+color:#7d0205 !important;
+}
+/* -----------------end--lunchpad--------------- */
+/* -----date--ficker---- */
+div#location-dashboard .location-dashboard_header .n-input.n-input--resizable.n-input--pair.n-input--stateful {
+  background: var(--primary-color) !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+div#location-dashboard .location-dashboard_header .n-input.n-input--resizable.n-input--pair.n-input--stateful input {
+  color: white !important;
+}
+.n-input.n-input--resizable.n-input--pair.n-input--stateful .n-base-icon {
+  color: white !important;
+}
+/* ----edit----- */
+div#location-dashboard .location-dashboard_header  #location-dashboard_btn--edit-dashboard{
+background:var(--primary-color) !important;
+}
+div#location-dashboard .location-dashboard_header  #location-dashboard_btn--edit-dashboard path{
+    filter:invert()
+}
+/* ----edit-end---- */
+/* -----------------end---date-picker---- */
+/* -----------conversation---trigger-link--------- */
+.v2-open.sidebar-v2-location section#trigger-links .hl_marketing--header button.btn.btn-sm.btn-primary.p-8  {
+    background:#7d0205!important;
+} 
+
+.v2-open.sidebar-v2-location section#trigger-links .hl_marketing--header button.btn.btn-sm.btn-primary.p-8 i{
+    color:white !important;
+}
+/* ----------------trigger--link--end-------- */
+/* ----------conversation-manual-action-button------------ */
+.v2-open.sidebar-v2-location section#customers ul.pagination.hl_controls.justify-content-end li.page-item.mr-0.disabled a,li.page-item.disabled a{
+background:#7d0205 !important;
+    color:white !important;
+}
+/* ----------conversation-manual-action-end------------ */
+/* --------------conversation----conversation----- */
+.v2-open.sidebar-v2-location section#conversations .relative.hl_conversations--message .relative.h-full.transition-all div#new-crp--contacts .avatar-container.cursor-pointer .rounded-full.n-avatar{
+    background:#7d0205 !important;
+    color:white !important;
+}
+/* ------------end-----conversation-------------- */
+/* --------------contact--bulk---action----------  */
+section#dashboard .card.hl_dashboard--latest-review-requests .card-header .d-flex.justify-content-end .hl_tasks-list.bulk-actions-header .dropdown.b-dropdown button{
+    border:1px solid #7d0205 !important;
+     margin-right:2px !important;
+}
+section#dashboard .card.hl_dashboard--latest-review-requests .card-header .d-flex.justify-content-end .d-inline-flex  .d-flex div#undefined-wrapper{
+ background:#7d0205 !important;
+}
+section#dashboard .card.hl_dashboard--latest-review-requests .card-header .d-flex.justify-content-end .d-inline-flex  .d-flex div#undefined-wrapper .field .field-input{
+ color:#ffffff !important;
+}
+/* -------------end-contact--bulk---action----------  */
+/* ----------------oppertunities---------------- */
+#OpportunitiesList .max-h-2xl.borderColor.mb-4.max-h-28.\!rounded.\!border-0.\!border-t-2.\!border-solid.hl-card .hl-card-content {
+    background: #7d0205 !important;
+color:white !important;
+}
+#OpportunitiesList .max-h-2xl.borderColor.mb-4.max-h-28.\!rounded.\!border-0.\!border-t-2.\!border-solid.hl-card .hl-card-content .whitespace-nowrap.text-ellipsis.text-black{
+color:white !important;
+}
+#OpportunitiesList .max-h-2xl.borderColor.mb-4.max-h-28.\!rounded.\!border-0.\!border-t-2.\!border-solid.hl-card .hl-card-content .text-xs{
+    color:white !important;
+} 
+/* ---------oppertunities----end--------------- */
+/* -------------funnel-----folder--button----- */
+.sidebar-v2-location section#funnels #funnel-website-btn-secondary,#forms-btn-secondary,#surveys-btn-secondary {
+    background:#072422 !important;
+ --n-border:#072422 !important;
+--n-border-hover: 1px solid #072422 !important;
+--n-border-focus: 1px #072422 !important;
+    --n-border-pressed: 1px solid #072422 !important;
+}
+.sidebar-v2-location section#funnels  #funnel-website-btn-secondary,#forms-btn-secondary,#surveys-btn-secondary  span.n-button__content{
+    color:white !important;
+}
+/* ------------end-funnel-----folder--button----- */
+/* ----------manage-scoring--button---- */
+div#scoring  .main-container section.top #add-new-rule-btn{
+    background:#7d0205 !important;
+}
+div#scoring  .main-container section.top #add-new-rule-btn .n-button__content{
+    color:white !important;
+}
+/* ---------end-manage-scoring--button---- */
+/* ---------integration--------- */
+.hl_settings--body.hl_v2_stettings--body.hl_without-topbar  .row .col-sm-6.col-md-3 .card-integration .card-integration--inner .btn-google-signin,#pg-intSettings__btn--connect-shopify{
+ background:#7d0205 !important; 
+    color: white !important;
+}
+.hl_settings--body.hl_v2_stettings--body.hl_without-topbar  .row .col-sm-6.col-md-3 .card-integration .card-integration--inner .btn-google-signin .btn-google-signin-text{
+color:white !important;
+}
+/* ------------------end-----integration--------- */
+/* ---------reselling--------- */
+div#agency-reselling div#products .card .card-body :is(.footer-controls,.footer-with-confirmation) button{
+    background:#7d0205 !important;
+    color:white !important;
+}
+/* -------------end---reselling----------- */
+/* --------------app-marketplace-button---------- */
+div#marketplace-app  .mt-3.grid.grid-cols-5.gap-5 .col-start-2.col-end-6.row-start-2.row-end-3 .flex.flex-wrap.justify-between .cursor-pointer .hl-card-content .n-tag.n-tag--round.justify-center{
+    background:#7d0205 !important;
+    color:white !important;
+}
+/* ----------app-marketplace--end------------ */
+/* ----------------whatsapp----button---------- */
+div#whatsapp-settings .whatsapp-payment .card .cc_card_info.part-common .cc_card_container  button.btn.btn-success.hl_calltoaction-btn.whatsapp_payment_confirm_btn {
+    background:#7d0205 !important;
+}
+/* ----------------end-----whatsappp------ */
+/* ---------------custom------field--pagination-- */
+.hl_settings--body.hl_without-topbar .mx-auto.px-6 .w-full .px-4.py-3.w-full.border-t.border-gray-200 .w-full.flex.items-center.justify-between nav.relative.z-0.inline-flex.rounded-md.shadow-sm.-space-x-px button{
+    background:#7d0205 !important;
+    color:white !important;
+}
+.hl_settings--body.hl_without-topbar .mx-auto.px-6 .w-full .px-4.py-3.w-full.border-t.border-gray-200 .w-full.flex.items-center.justify-between nav.relative.z-0.inline-flex.rounded-md.shadow-sm.-space-x-px span.relative.inline-flex.items-center.px-3.py-2.border.text-sm.font-medium.z-10.bg-indigo-50.border-blue-500.text-blue-500.cursor-pointer{
+    border:1px solid #7d0205 !important;
+}
+/* --------------end--custom--field--pagination----- */
+/* ------------------reputation--management-------- */
+.hl_reputation .hl_reputation--body.hl_reputation--scroll-self label.n-radio-button--checked{
+    background: ;
+    color: #7d0205 !important;
+    border:1px solid  #7d0205 !important;
+    border-color:#7d0205 !important;
+}
+.hl_reputation .hl_reputation--body.hl_reputation--scroll-self #review-request-link-platform .n-space .n-radio-button--checked .hl-radio-group-item-action .n-radio.n-radio--checked .n-radio__dot-wrapper .n-radio__dot--checked{
+    filter: invert(1) !important;
+}
+/* ----------------reputation--managem------end-- */
+/* -----------------dash-card-header-small-text--color---- */
+#app div#location-dashboard .hl-card .hl-card-header .text-gray-500.mt-0\.5.hl-text-xs-regular {
+    color:white !important;
+}
+/* ----------------end-dash-card-header-small-text--color---- */
+/* ----------------next-and-previous-button------------- */
+
+button#funnel-list-next,button#forms-list-next,button#surveys-list-next,#funnel-step-products-next  {
+    background:#7d0205 !important;
+    color:white !important;
+}
+
+button#funnel-list-previous,button#forms-list-previous,button#surveys-list-previous,#funnel-step-products-previous  {
+    background:#7d0205 !important;
+    color:white !important;
+}
+/* ---------------end-next-and-previous-button------------- */
+/* -------sidebar-site-funnel-inner-site-button-color-green------------ */
+ button#edit-page,button#preview-page,button#clone-funnel-step,button#funnel-url-info,button#preview-link  {
+    background:#072422!important;
+     --n-border:#072422 !important;
+    color:white !important;
+     --n-border-hover: 1px solid #072422 !important;
+ --n-border:#072422 !important;
+--n-border-focus: 1px #072422 !important;
+    --n-border-pressed: 1px solid #072422 !important;
+}
+/* ------end-sidebar-site-funnel-inner-site-button-color-green------------ */
+/* -------funnel--stats--buttton----- */
+button#funnels-sales-table-previous,button#funnels-sales-table-next {
+    background:#7d0205 !important;
+    color:white !important;
+}
+/* ----------funnel-stats--button--end----- */
+/* -------------reporting-google-ads---- */
+.page-item.active .page-link {
+    background:#7c0205 !important;
+        border-color:#7c0205 !important;
+    color:white !important;
+}
+/* end----google--ads--- */
+/* ---------contact--smart-list--icon---------- */
+button[data-original-title="Bulk Email Verification Modal"] path{
+    fill:white !important;
+
+}
+button.hl-btn.ml-2.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.text-white.bg-curious-blue-500.hover\:bg-curious-blue-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-600 {
+background:#7d0205 !important;
+}
+
+/* ---------contact--smart-list--icon--end-------- */
+/* ---------------------reporting google--ads-- header---start--------- */
+ .flex-child{
+    padding:0px !important;
+    border-radius:10px 10px 0px 0px !important;
+}
+ .flex-child .top-row-box__top {
+    padding:5px !important;
+    background:#7d0205 !important;
+    color:white !important;
+    border-radius:10px 10px 0px 0px !important;
+}
+
+ .flex-child .top-row-box__mid {
+    padding:10px !important;
+}
+
+ .flex-child .top-row-box__bottom {
+    padding:10px !important;
+}
+
+ .flex-child .top-row-box__top .box-title span {
+    color:white !important;
+}
+ .flex-container.middle-row .flex-child .mid-row-box__top {
+    padding:5px;
+    background:#7d0205 !important;
+    color:white !important;
+    border-radius:10px 10px 0px 0px !important;
+}
+
+ .flex-container.middle-row .flex-child .middle-row.mid-row-box__bottom {
+    padding-left:5px !important;
+}
+
+ .bottom-row  .hl_controls--left.col .search {
+    border:1px solid #7d0205 !important;
+}
+/* ---------------------reporting google--ads-- header---end--------- */
+/* ----------Reporting------------- */
+div#attribution-dashboard .n-tabs.n-tabs--line-type.n-tabs--medium-size.n-tabs--top .hl-card .hl-card-header{
+    background: #7d0205 !important;
+    color:white !important;
+}
+div#attribution-dashboard .n-tabs.n-tabs--line-type.n-tabs--medium-size.n-tabs--top .hl-card .hl-card-header  .text-gray-900.hl-text-lg-medium  {
+    color:white !important;
+}
+div#attribution-dashboard .flex.mt-3 .w\=3\/12.card.hl-card  {
+    border:1px solid #7d0205 !important;
+}
+div#attribution-dashboard  button#attribution-reporting-refresh-btn {
+    background:#072422 !important;
+    color:white !important;
+    --n-border:#072422 !important;
+    --n-border-pressed:#072422 !important;
+        --n-border-disabled:#072422 !important;
+    --n-border-hover:#072422 !important;
+        --n-border-focus:#072422 !important;
+}
+div#attribution-dashboard  .n-radio-group.radio-group {
+       --n-border:#7d0205 !important;
+    --n-border-pressed:#7d0205 !important;
+        --n-border-disabled:#7d0205 !important;
+    --n-border-hover:#7d0205 !important;
+        --n-border-focus:#7d0205 !important;
+    --n-button-border-color-active:#7d0205 !important;
+    --n-button-box-shadow-focus: inset 0 0 0 1px #7d0205, 0 0 0 2px rgba(21, 94, 239, 0.3);
+        --n-button-box-shadow-focus: inset 0 0 0 1px #7d0205, 0 0 0 2px rgba(21, 94, 239, 0.3) !important;
+}
+
+label.n-radio-button.n-radio-button--checked.radio-group-button.hl-radio-group-item.compact-radio-item {
+    background:#7d0205!important;
+    color:white !important;
+    
+}
+
+button#breakdown-of-leads-previous,button#breakdown-of-leads-next {
+      background:#7d0205!important;
+    color:white !important;
+}
+
+section#reporting-attribution-dashboard .card.hl_dashboard--pipeline-value.rounded,.card.hl_dashboard--pipeline-value .container-fluid {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border:1px solid #7d0205
+}
+section#reporting-attribution-dashboard .card.hl_dashboard--pipeline-value {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border:1px solid #7d0205
+}
+div#call-reporting-dashboard .n-tabs.n-tabs--line-type.n-tabs--medium-size.n-tabs--top .hl-card{
+   border-radius:15px 15px 0px 0px !important;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+div#call-reporting-dashboard .n-tabs.n-tabs--line-type.n-tabs--medium-size.n-tabs--top .hl-card .hl-card-header{
+   background:#7d0205 !important; 
+   border-radius:15px 15px 0px 0px !important;
+}
+div#call-reporting-dashboard .n-tabs.n-tabs--line-type.n-tabs--medium-size.n-tabs--top .hl-card .hl-card-header .hl-text-lg-medium{
+    color:white !important;
+}
+section#reporting-agent-dashboard button.btn.btn-blue {
+   background:#7d0205 !important;
+}
+div#call-reporting-dashboard button#call-reporting-dashboard_btn--refresh {
+   background:#072422 !important;
+    color: white !important;
+   --n-border-hover:#072422 !important;
+   --n-border-focus:#072422 !important;
+   --n-border:#072422 !important;
+}
+section#reporting-agent-dashboard .agent_reporting .row .card .card-header{
+   background:#7d0205 !important;
+   color:white !important;
+}
+
+section#reporting-agent-dashboard .agent_reporting .row .card .card-header .d-flex {
+   position:relative;
+   top:-11px !important;
+}
+section#reporting-agent-dashboard .agent_reporting .row .card .card-header .d-flex h2{
+   color:white !important;
+}
+/* ------------end----Reporting------ */
+/* -------------reporting--appointment-report----start---- */
+section#reporting-appointments-dashboard .card.hl_dashboard--pipeline-value.rounded,.card.hl_dashboard--pipeline-value .container-fluid {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius:8px 8px 0px 0px !important;
+   
+}
+section#reporting-appointments-dashboard .card.hl_dashboard--pipeline-value {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding:0px !important;
+}
+section#reporting-appointments-dashboard .card.hl_dashboard--pipeline-value.rounded .px-3.pt-3{
+   padding:unset !important;
+}
+section#reporting-appointments-dashboard .card.hl_dashboard--pipeline-value.rounded .px-3.pt-3 h4 {
+   background:#7d0205 !important;
+   width: 100%;
+   padding:4px !important;
+   color:white !important;
+    border-radius:8px 8px 0px 0px !important;
+}
+section#reporting-appointments-dashboard .card.hl_dashboard--pipeline-value.rounded .px-3.pt-3 .d-flex.justify-content-between {
+     background:#7d0205 !important;
+   width: 100%;
+   padding:4px !important;
+   color:white !important;
+    border-radius:8px 8px 0px 0px !important;
+}
+
+
+
+section#reporting-appointments-dashboard .card.hl_dashboard--pipeline-value .flex.justify-between  {
+   background:#7d0205 !important;
+ padding:2px !important;
+   border-radius:8px 8px 0px 0px !important;
+}
+section#reporting-appointments-dashboard .card.hl_dashboard--pipeline-value .flex.justify-between h4 {
+  padding:17px !important;
+   color:white !important;
+ 
+}
+section#reporting-appointments-dashboard .card.hl_dashboard--pipeline-value :not(.flex.justify-between) h4{
+   background:#7d0205 !important;
+  width:100% !important;
+   padding:15px !important;
+   color:white !important;
+   border-radius:8px 8px 0px 0px !important;
+}
+
+section#reporting-appointments-dashboard .card-group.--wide-gutter.card-bottom-margin {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+}
+section#reporting-appointments-dashboard .card-group.--wide-gutter.card-bottom-margin .card .hl-table .p-2.pb-0.m-0.hl_controls.row .hl_controls--left.col .select-control-wrap.max-w-min{
+  border:1px solid #7d0205 !important;
+  border-radius:5px !important;
+}
+/* -------------reporting--appointment-report-----end--- */
+/* ----------Reputation----overview------start--------- */
+div#reputation-dashboard-container .n-space .hl-card  {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius:10px 10px 0px 0px !important;
+    
+}
+div#reputation-dashboard-container .n-space .hl-card .hl-card-content {
+    padding:0px !important;
+}
+div#reputation-dashboard-container .n-space .hl-card .hl-card-content .mb-6.text-gray-900.hl-text-lg-medium {
+    background:#7d0205 !important;
+    color:white  !important;
+    padding:8px  !important;
+    border-radius:10px 10px 0px 0px !important;
+}
+/* ----------Reputation----overview------end--------- */
+/* ------start-reputation---widgets---saved-widgets-button------ */
+.hl_reputation  .n-tabs.n-tabs--segment-type.n-tabs--medium-size.n-tabs--top .n-tabs-nav--segment-type.n-tabs-nav--top.n-tabs-nav .n-tabs-tab.n-tabs-tab--active {
+    background:#7d0205 !important;
+    color:white !important;
+}
+/* ----end--start-reputation---widgets---saved-widgets-button------ */
+/* -----------automation-campaigns---table-header----start-- */
+section#marketing .container-fluid .hl_customer-acquisition .card.hl_customer-acquisition--table .table-wrap > .w-100 >.w-100.d-flex.py-2 {
+    background:#7d0205 !important;
+    color:white !important;
+}
+/* -----------automation-campaigns---table-header----end-- */
+/* --------------payment--previous-and--next--button-----start---- */
+div#ProposalEstimatesListApp button#proposals-previous,button#proposals-next{
+    background:#7d0205 !important;
+    color:white !important;
+}
+/* --------------payment--previous-and--next--button-----end---- */
+/* ------------contact---smart-list--add-to-compaign-pop-up----------- */
+.modal-buttons.justify-content-between.px-2 button {
+    background-color:#7d0205 !important;
+    color:white !important;
+    border-color:#7d0205 !important;
+}
+
+  .custom-radio .custom-control-input:checked~.custom-control-label:before  {
+    background-color: #7d0205 !important;
+}
+section#dashboard .card.hl_dashboard--latest-review-requests .card-body .container-fluid  button.btn.override-to-btn-class-override.btn-outline-primary.mx-2 {
+    color:white !important;
+    background:#7d0205 !important;
+    border:unset !important;
+}
+.dropdown  ul.dropdown-menu.show li a.dropdown-item:hover {
+    background:#7d0205 !important ;
+    color:white !important;
+}
+   /* ------------contact---smart-list--add-to-compaign-pop-up----end------- */
+/* --------sites--funnel---step-- aboutus--button--text-color--start----- */
+section#funnels-steps div#FunnelDetailPage div#steps-tab div#funnel-page div#funnel-page-card button#pg-funnel-pages__btn-funnel-control-page-import span.n-button__content{
+    color:white !important;
+}
+
+/* --------sites--funnel---step-- aboutus--button--text-color--end----- */
