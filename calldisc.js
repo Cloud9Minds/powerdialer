@@ -1,5 +1,10 @@
 // DISCLOSURE SCRIPT FOR POWER DIALER
 
+// Initialize data;
+var name = "";
+var email = "";
+var phone = "";
+
 // Take disclosure instance and content
 var discContainer = document.querySelector(".modal-body-inner");
 var discRow = discContainer.children[0];
@@ -62,3 +67,9 @@ discRow.append(discDivFu);
 
 console.log(discContainer);
 console.log(discRow);
+
+// Capture Data
+const nameContainer = document.querySelector(".hl_conversations--message-header");
+const nameContact = nameContainer.children[0];
+name = nameContact.innerHTML;
+console.log(name);
