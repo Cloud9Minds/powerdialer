@@ -68,8 +68,21 @@ discRow.append(discDivFu);
 console.log(discContainer);
 console.log(discRow);
 
+// Add event listener to links
+function discCbAction(){
+  const fnameContainer = document.getElementById("#contact.first_name");
+  const fnameDiv = fnameContainer.children[1];
+  const fnameInner = fnameDiv.children[1];
+  const fname = fnameInner.children[2]
+
+  const lnameContainer = document.getElementById("#contact.last_name");
+  const lnameDiv = lnameContainer.children[1];
+  const lnameInner = lnameDiv.children[1];
+  const lname = lnameInner.children[2]
+  
+  console.log(fname +"" +lname);
+}
+
+
 // Capture Data
-const nameContainer = document.querySelector(".hl_conversations--message-header");
-const nameContact = nameContainer.children[0];
-name = nameContact.innerHTML;
-console.log(name);
+
