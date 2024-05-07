@@ -72,22 +72,9 @@ const fname = document.querySelector('[name="contact.first_name"]').value;
 const lname = document.querySelector('[name="contact.last_name"]').value;
 console.log(fname+" "+lname);
 
-
-console.log(fname +"" +lname);
-
 // Add event listener to links
 function discCbAction(){
-  const fnameContainer = document.getElementById("#contact.first_name");
-  const fnameDiv = fnameContainer.children[1];
-  const fnameInner = fnameDiv.children[1];
-  const fname = fnameInner.children[2]
 
-  const lnameContainer = document.getElementById("#contact.last_name");
-  const lnameDiv = lnameContainer.children[1];
-  const lnameInner = lnameDiv.children[1];
-  const lname = lnameInner.children[2]
-  
-  console.log(fname +"" +lname);
 }
 
 
