@@ -70,6 +70,7 @@ console.log(discRow);
 
 const fname = document.querySelector('[name="contact.first_name"]').value;
 const lname = document.querySelector('[name="contact.last_name"]').value;
+console.log(fname+" "+lname);
 
 
 console.log(fname +"" +lname);
