@@ -68,9 +68,9 @@ discRow.append(discDivFu);
 console.log(discContainer);
 console.log(discRow);
 
-const fname = document.querySelector('input[name="contact.first_name"]').value;
+const fnamefff = document.querySelector('input[name="contact.first_name"]').value;
 const lname = document.querySelector('input[name="contact.last_name"]').value;
-console.log(fname+" "+lname);
+console.log(fnamefff+" "+lname);
 
 // Add event listener to links
 function discCbAction(){
